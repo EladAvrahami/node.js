@@ -1,5 +1,11 @@
 # node.js + Express proj
-start+ sum node.js important subj
+### start+ sum node.js important subj
+
+## General / Terminal commands:
+#### Download latest express version  :
+terminal -> npx express --hbs -> npm install
+#### Terminat process  :
+cntrl+ c
 
 
 ## part 11 - VIP Proj
