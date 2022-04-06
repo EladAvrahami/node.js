@@ -1,0 +1,38 @@
+<h1>{{title}}</h1>
+<br>
+<!--   -->
+<div class ="row">
+
+<!-- לכתיבת אובייקטים עי מעבר על מערך באמצעות דאבל אינקפסולשיין בלולואת each  -->
+<!-- עונה 4 סרטון 5-8 -->
+    {{#each _ar}}
+    <dir class ="col-sm-6 card">
+        <!-- בלחיצה על איש יעביר לעמוד שלו בהתאם לאינדקס  -->
+        <a href="/{{@index}}">
+            <div>
+                <img class="float-left" src="{{image}}" style="margin-right: 10px;">
+                <!-- @index  -->
+                <h2>{{name}} {{@index}}</h2>
+
+                <!-- בדיקה האם קיים מאפיין מסויים של שווי בגייסון אם לא מוצא את המאפיין תרשום שלא ידוע -->
+                {{#if worth}}
+                <p>worth:{{worth}} </p>
+                {{else}}
+                <del>Worth:unknown</del>
+                {{/if}}
+
+            </div>
+        </a>
+    </dir>
+    {{/each}}
+
+<!-- לכתיבת אובייקט אחד  -->
+    <!--   <dir class ="col-ms-6 card">
+        <div>
+            <img class="float-left" src="{{_ar.1.image}}" style="margin-right: 10px;">
+            <h2>{{_ar.1.name}}</h2>
+            <p>worth:{{_ar.1.worth}} </p>
+        </div>
+    </dir>  -->
+
+</div>
