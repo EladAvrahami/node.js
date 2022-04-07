@@ -24,11 +24,12 @@ router.get('/:id_vip', function(req, res, next) { - נרשום נקודותיי�
 
 ## BITCOIN_Project
 ###   routing by url + collect prams from url 
+###   work with api +loops in incupsolation+menipulate json data in order to show on HBS files
 1.Download Axios . </br>
 *bit.hbs file - in order to choose spesific coin from coin array api i willl write : {{array.0.name}} </br>
 so the array- is a parameter that contain my json data, 0- is the index of the obj in that json api , and name - will be one an attribute in that json obj</br>
 2. Add bootstarp link to the general layout.hbs file.  from ->https://getbootstrap.com/docs/5.1/getting-started/download/</br>
-3. 
+3. menipulate respons data in the index js file and use it on bit.hbs file 
 
 
 
