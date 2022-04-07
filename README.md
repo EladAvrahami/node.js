@@ -8,7 +8,7 @@ terminal -> npx express --hbs -> npm install
 cntrl+ c
 
 
-## part 11 - VIP Proj
+## part 11 - VIP  Person Proj
 ### get out index with for loops in hbs file 
 {{#if}} -if בתוך הנדל ברס  בדיקה האם קיים מאפיין מסויים בגייסון/מערך, אם לא מוצא את המאפיין תבצע את הפעולה  </br>
 {{else}} - שים לב שנכתב בתוך ה if </br> 
@@ -16,7 +16,7 @@ cntrl+ c
 {{#unless worth}} - מבצע פעולת איף הפוכה כלומר במידה ומצא מאפיים בגייסון לדוגמא יבצע את הפעולה </br>
 {{@index}} - find ob index 
 
-## part 12 - VIP Proj
+## part 12 - VIP Person Proj
 ###   routing by url + collect prams from url 
 router.get('/', function(req, res, next) { - router will effect on the location by url</br>
 res.render (...)}  - render will tell me to start hbs file </br>
