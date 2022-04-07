@@ -22,8 +22,13 @@ router.get('/', function(req, res, next) { - router will effect on the location 
 res.render (...)}  - render will tell me to start hbs file </br>
 router.get('/:id_vip', function(req, res, next) { - נרשום נקודותיים לפני המאפיין שבגרשיים עמ שיבין שלא מדובר בהפנייה לתקייה אלא בפרמטר
 
-
-
+## BITCOIN_Project
+###   routing by url + collect prams from url 
+1.Download Axios . </br>
+*bit.hbs file - in order to choose spesific coin from coin array api i willl write : {{array.0.name}} </br>
+so the array- is a parameter that contain my json data, 0- is the index of the obj in that json api , and name - will be one an attribute in that json obj</br>
+2. Add bootstarp link to the general layout.hbs file.  from ->https://getbootstrap.com/docs/5.1/getting-started/download/
+3. 
 
 
 
