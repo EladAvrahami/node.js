@@ -1,0 +1,17 @@
+
+<div class="container">
+    <h1>welcome to bit currency :</h1>
+    </br>
+    <div class="row"> 
+    <!-- {{_ar.0.name}} -->
+    <!--will iterate on the array cells -->
+    {{#each _ar}}
+    <div class="col-6 border border-dark">
+        <img class="float-right mr-2" src="https://files.coinmarketcap.com/static/widget/coins_legacy/64x64/{{id}}.png" >
+    <h2>{{name}} </h2>
+    <p>Value:{{price_usd}}</p>
+    <p>Value with myPrice function:{{myPrice}}</p>
+    </div>
+    {{/each}}
+    </div>
+</div>
