@@ -35,11 +35,20 @@ so the array- is a parameter that contain my json data, 0- is the index of the o
 
 
 ## Project 3 
-4. Middleware - create API + set the Middleware (JSON parsing + static files) and public folder +AppRouting
-5. //הגדרת תקיית פובליק כתקייה סטטטית שניתן לשים בה קבצים לצד לקוח ולצד לקוח יהיה גישה </br>  
+### 1. Middleware 
+</br>
+  create API + set the Middleware (JSON parsing + static files) and public folder +AppRouting
+הגדרת תקיית פובליק כתקייה סטטטית שניתן לשים בה קבצים לצד לקוח ולצד לקוח יהיה גישה </br>  
 כוח מטורף מבחינת ראוטינג כי גם יחסוך לי פעולת גט לכל קובץ בתקיית פובליק וגם יזהה אוטומטית קבצים שנמצאים בפובליק
 בניסיון להגיע אליהם בשורת הכתובת בתצוגת המשתמש : </br>
 app.use(express.static(path.join(__dirname,"public")));
+
+-----------------------------------------------------------------------------------
+
+### 2. Order my routes
+open new file called  "confige_routes" and do export to it 
+using the middelware " .use " in order to get a path to get the url of the indexRout for instance...
+
 
 
 
