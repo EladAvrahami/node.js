@@ -6,6 +6,7 @@
 terminal -> npx express --hbs -> npm install
 #### Terminat process  :
 cntrl+ c
+#### PAY ATTENTION : THE FIRST PAGE WILL ALWAYS CALLED index.html
 
 
 ## part 11 - VIP  Person Proj
@@ -35,7 +36,12 @@ so the array- is a parameter that contain my json data, 0- is the index of the o
 
 ## Project 3 
 4. Middleware - create API + set the Middleware (JSON parsing + static files) and public folder +AppRouting
-5. 
+5. //הגדרת תקיית פובליק כתקייה סטטטית שניתן לשים בה קבצים לצד לקוח ולצד לקוח יהיה גישה </br>  
+כוח מטורף מבחינת ראוטינג כי גם יחסוך לי פעולת גט לכל קובץ בתקיית פובליק וגם יזהה אוטומטית קבצים שנמצאים בפובליק
+בניסיון להגיע אליהם בשורת הכתובת בתצוגת המשתמש : </br>
+app.use(express.static(path.join(__dirname,"public")));
+
+
 
 
 
