@@ -49,7 +49,12 @@ app.use(express.static(path.join(__dirname,"public")));
 open new file called  "confige_routes" and do export to it 
 using the middelware **" .use "** on the config_routes file in order to get a path to get the url of the indexRout for instance...
 
-app.use("/users",usersRout) wiil ref to useresRout file and in it will be more part of the url 
+app.use("/users",usersRout) wiil ref to useresRout file and in it will be more part of the url like in this example:
+
+router.get("/user1",(req,res)=>{
+     //יחזיר מידע בפורמט גייסון שאני הגדרתי על המסך בשם הודוע 
+     res.json({msg:"USERS ROUT WORK 4444"})
+})
 
 
 
