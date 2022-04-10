@@ -47,7 +47,10 @@ app.use(express.static(path.join(__dirname,"public")));
 
 ### 2. Order my routes
 open new file called  "confige_routes" and do export to it 
-using the middelware " .use " in order to get a path to get the url of the indexRout for instance...
+using the middelware **" .use "** on the config_routes file in order to get a path to get the url of the indexRout for instance...
+
+app.use("/users",usersRout) wiil ref to useresRout file and in it will be more part of the url 
+
 
 
 
