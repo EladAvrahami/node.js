@@ -32,5 +32,9 @@ so the array- is a parameter that contain my json data, 0- is the index of the o
 3. menipulate respons data in the index js file and use it on bit.hbs file 
 
 
+## Project 3 
+Middleware
+
+
 
 
