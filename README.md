@@ -61,6 +61,7 @@ shopRout file ...
 
 ### 4. Connect to mongoDB 
 https://mongoosejs.com/docs/index.html - quick start guide </br>
+add require("./db/ConnectMongo") to app.js file
 
 
 ### linkes for tommorow: 
