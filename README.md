@@ -63,11 +63,13 @@ shopRout file ...
 https://mongoosejs.com/docs/index.html - quick start guide </br>
 add require("./db/ConnectMongo") to app.js file
 
+### 11.8 craete schema of collection
+
 
 ### linkes for tommorow: 
 https://www.bezkoder.com/node-js-express-sequelize-mysql/ (include video)</br>
 https://www.bezkoder.com/node-js-rest-api-express-mysql/ regular(main)</br>
-https://github.com/atrem13/restful-api-express-mysql-bezcoder-  code example
+https://github.com/atrem13/restful-api-express-mysql-bezcoder-  code example 
 
 
 
