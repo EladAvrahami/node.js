@@ -57,6 +57,10 @@ router.get("/user1",(req,res)=>{
 })
 
 ### 3. Create Query string
+shopRout file ...
+
+### 4. Connect to mongoDB 
+https://mongoosejs.com/docs/index.html - quick start guide </br>
 
 
 
