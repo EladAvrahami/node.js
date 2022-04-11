@@ -56,7 +56,7 @@ router.get("/user1",(req,res)=>{
      res.json({msg:"USERS ROUT WORK 4444"})
 })
 
-### 3. create Query string
+### 3. Create Query string
 
 
 
