@@ -1,5 +1,5 @@
 # node.js + Express proj
-### start+ sum node.js important subj
+### start+ sum node.js and Express framwork important subj
 
 ## General / Terminal commands:
 #### Download latest express version  :
