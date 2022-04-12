@@ -63,7 +63,15 @@ shopRout file ...
 https://mongoosejs.com/docs/index.html - quick start guide </br>
 add require("./db/ConnectMongo") to app.js file
 
-### 11.8 craete schema of collection
+### 11.8 craete schema as a modele of collection (like interface)
+
+/*create some kind of interface to avoid Multiple keys */</br>
+const foodSchema = new mongoose.Schema({</br>
+name:String,</br>
+img:String,</br>
+cak:Number,</br>
+price:Number</br>
+});
 
 
 ### linkes for tommorow: 
