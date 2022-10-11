@@ -6,6 +6,8 @@
 terminal -> npx express --hbs -> npm install
 #### Terminat process  :
 cntrl+ c
+#### copy line shortcut:
+alt+shift+arrowDown/UP
 #### PAY ATTENTION : THE FIRST PAGE WILL ALWAYS CALLED index.html
 
 
